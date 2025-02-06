@@ -91,3 +91,36 @@ ul li:hover {
 .delete-btn:hover {
     background: #cc0000;
 }
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    .input-container {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #event {
+        width: 100%;
+    }
+
+    #addBtn {
+        width: 100%;
+        padding: 12px;
+    }
+
+    ul li {
+        flex-direction: column;
+        text-align: center;
+        gap: 5px;
+        padding: 12px;
+    }
+
+    .delete-btn {
+        width: 100%;
+        padding: 8px;
+    }
+}
